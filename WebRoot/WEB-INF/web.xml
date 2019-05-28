@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HeaderServlet</servlet-name>
+    <servlet-class>com.hengxin.servlet.HeaderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>com.hengxin.servlet.IndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YeJiaoServlet</servlet-name>
+    <servlet-class>com.hengxin.servlet.YeJiaoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodstypeServlet</servlet-name>
+    <servlet-class>com.hengxin.servlet.GoodstypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsServlet</servlet-name>
+    <servlet-class>com.hengxin.servlet.GoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewstypeServlet</servlet-name>
+    <servlet-class>com.hengxin.servlet.NewstypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageServlet</servlet-name>
+    <servlet-class>com.hengxin.servlet.MessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AboutServlet</servlet-name>
+    <servlet-class>com.hengxin.servlet.AboutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Article_list_moreServlet</servlet-name>
+    <servlet-class>com.hengxin.servlet.Article_list_moreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ContactServlet</servlet-name>
+    <servlet-class>com.hengxin.servlet.ContactServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Article_list_contentServlet</servlet-name>
+    <servlet-class>com.hengxin.servlet.Article_list_contentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LunboServlet</servlet-name>
+    <servlet-class>com.hengxin.servlet.LunboServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductdetailsServlet</servlet-name>
+    <servlet-class>com.hengxin.servlet.ProductdetailsServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>HeaderServlet</servlet-name>
+    <url-pattern>/header</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>YeJiaoServlet</servlet-name>
+    <url-pattern>/yejiao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodstypeServlet</servlet-name>
+    <url-pattern>/goodstype</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsServlet</servlet-name>
+    <url-pattern>/goods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewstypeServlet</servlet-name>
+    <url-pattern>/newstype</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageServlet</servlet-name>
+    <url-pattern>/message</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AboutServlet</servlet-name>
+    <url-pattern>/about</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Article_list_moreServlet</servlet-name>
+    <url-pattern>/article_list_more</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContactServlet</servlet-name>
+    <url-pattern>/contact</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Article_list_contentServlet</servlet-name>
+    <url-pattern>/article_list_content</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LunboServlet</servlet-name>
+    <url-pattern>/lunbo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductdetailsServlet</servlet-name>
+    <url-pattern>/productdetails</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index</welcome-file>
+  </welcome-file-list>
+</web-app>
